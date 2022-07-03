@@ -1,0 +1,35 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                FirstName
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                Age
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>
+                <input [(ngModel)]="FirstName" class="form-control"/>
+            </td>
+
+            <td>
+                <input [(ngModel)]="LastName" class="form-control"/>
+            </td>
+
+            <td>
+                <input [(ngModel)]="Age" class="form-control"/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<h1>{{ FirstName }} {{ LastName }} {{ Age }}</h1>
